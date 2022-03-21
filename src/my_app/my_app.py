@@ -23,6 +23,6 @@ def main(parser=argparse.ArgumentParser()):
 
 
 def square(x: int):
-    y = x * x
+    y = x**2
     print(f"The square of {x} is {y}!")
     return y

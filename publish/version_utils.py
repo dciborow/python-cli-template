@@ -18,7 +18,7 @@ def bump_version(config_file: str) -> str:
         json.dump(config_object, f, indent=2)
 
     # Return new version.
-    print("Bumping Version Number: {} -> {}".format(current_version, new_version))
+    print(f"Bumping Version Number: {current_version} -> {new_version}")
     return new_version
 
 
